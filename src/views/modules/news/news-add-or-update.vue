@@ -13,9 +13,6 @@
     <el-form-item label="布人发" prop="newsissuer">
       <el-input v-model="dataForm.newsissuer" placeholder="布人发"></el-input>
     </el-form-item>
-    <el-form-item label="发布时间" prop="createTime">
-      <el-input v-model="dataForm.createTime" placeholder="发布时间"></el-input>
-    </el-form-item>
     </el-form>
     <span slot="footer" class="dialog-footer">
       <el-button @click="visible = false">取消</el-button>
